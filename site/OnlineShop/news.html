@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Демонстраційна сторінка OnlineShop з отриманням новин через API та контактною формою."
+    />
+    <title>OnlineShop — API та Fetch</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="api-page">
+    <header class="header">
+      <div class="container header__container">
+        <a href="index.html" class="header__logo">OnlineShop</a>
+        <nav class="header__nav" aria-label="Навігація сторінки">
+          <ul class="nav__list">
+            <li>
+              <a href="#news" class="nav__link nav__link--active">Новини</a>
+            </li>
+            <li><a href="#contact" class="nav__link">Контакти</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container api-main">
+      <section id="news" class="api-section">
+        <p class="eyebrow">Демо-дані з JSONPlaceholder</p>
+        <h1 class="section-title">Останні новини та відгуки</h1>
+        <div
+          id="news-container"
+          class="news__grid"
+          aria-live="polite"
+          aria-busy="true"
+        >
+          <p class="loading-text">Завантаження новин...</p>
+        </div>
+      </section>
+
+      <section id="contact" class="api-section contact-section">
+        <p class="eyebrow">Ми на зв'язку</p>
+        <h2 class="section-title">Зворотний зв'язок</h2>
+        <form id="contact-form" class="api-form" novalidate>
+          <div
+            id="form-status"
+            class="form__status"
+            role="status"
+            aria-live="polite"
+            hidden
+          ></div>
+
+          <div class="form__group">
+            <label for="name" class="form__label">Ваше ім'я:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              class="form__input"
+              autocomplete="name"
+              required
+              placeholder="Олександр"
+            />
+          </div>
+
+          <div class="form__group">
+            <label for="email" class="form__label">Ваш Email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              class="form__input"
+              autocomplete="email"
+              required
+              placeholder="alex@example.com"
+            />
+          </div>
+
+          <div class="form__group">
+            <label for="phone" class="form__label">Телефон</label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              class="form__input"
+              autocomplete="tel"
+              inputmode="tel"
+              required
+              aria-describedby="phone-hint"
+              placeholder="+380XXXXXXXXX"
+            />
+            <span id="phone-hint" class="form__hint" aria-live="polite"></span>
+          </div>
+
+          <div class="form__group">
+            <label for="message" class="form__label">Повідомлення:</label>
+            <textarea
+              id="message"
+              name="message"
+              class="form__textarea"
+              rows="4"
+              required
+              placeholder="Ваше повідомлення..."
+            ></textarea>
+          </div>
+
+          <button type="submit" id="submit-btn" class="btn btn--primary">
+            <span id="btn-text">Надіслати</span>
+          </button>
+        </form>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

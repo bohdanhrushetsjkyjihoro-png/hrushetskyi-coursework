@@ -1,0 +1,226 @@
+{
+  "shop-index": {
+    "keyboard_1280": {
+      "focusable": 17,
+      "reached": 15,
+      "noVisibleFocus": [],
+      "obscured": [
+        "a: Перейти до основного контенту (header)",
+        "a: Перейти до основного контенту (header)"
+      ]
+    },
+    "keyboard_360": {
+      "focusable": 12,
+      "reached": 10,
+      "noVisibleFocus": [],
+      "obscured": [
+        "a: Перейти до основного контенту (header)",
+        "a: Перейти до основного контенту (header)"
+      ]
+    },
+    "layout_360": {
+      "smallTargets": [
+        "a \"hello@onlineshop.example\" 209×20"
+      ],
+      "navLinksTotal": 5,
+      "navLinksVisible": 0,
+      "hasMenuButton": false,
+      "horizontalScroll": false,
+      "scrollWidth": 360
+    },
+    "layout_320": {
+      "smallTargets": [
+        "a \"hello@onlineshop.example\" 209×20"
+      ],
+      "navLinksTotal": 5,
+      "navLinksVisible": 0,
+      "hasMenuButton": false,
+      "horizontalScroll": true,
+      "scrollWidth": 342
+    },
+    "textSpacingClipped": [
+      "A: Перейти до основного контенту"
+    ],
+    "semantics": {
+      "headings": [
+        "H1 Сучасна техніка для вашого комфорту",
+        "H2 Популярні товари",
+        "H3 Смартфон Galaxy S24",
+        "H3 Дизайн-система Figma",
+        "H3 Бездротові навушники",
+        "H2 Про нас",
+        "H2 Контакти"
+      ],
+      "dupButtons": [
+        [
+          "Купити",
+          3
+        ]
+      ],
+      "skipLink": true,
+      "required": []
+    }
+  },
+  "shop-news": {
+    "keyboard_1280": {
+      "focusable": 8,
+      "reached": 8,
+      "noVisibleFocus": [],
+      "obscured": []
+    },
+    "keyboard_360": {
+      "focusable": 8,
+      "reached": 8,
+      "noVisibleFocus": [],
+      "obscured": []
+    },
+    "layout_360": {
+      "smallTargets": [
+        "a \"Новини\" 49×16",
+        "a \"Контакти\" 61×16"
+      ],
+      "navLinksTotal": 2,
+      "navLinksVisible": 2,
+      "hasMenuButton": false,
+      "horizontalScroll": false,
+      "scrollWidth": 360
+    },
+    "layout_320": {
+      "smallTargets": [
+        "a \"Новини\" 49×16",
+        "a \"Контакти\" 61×16"
+      ],
+      "navLinksTotal": 2,
+      "navLinksVisible": 2,
+      "hasMenuButton": false,
+      "horizontalScroll": false,
+      "scrollWidth": 320
+    },
+    "textSpacingClipped": [],
+    "semantics": {
+      "headings": [
+        "H1 Останні новини та відгуки",
+        "H2 Зворотний зв'язок"
+      ],
+      "dupButtons": [],
+      "skipLink": false,
+      "required": [
+        {
+          "id": "name",
+          "labelMarksRequired": false
+        },
+        {
+          "id": "email",
+          "labelMarksRequired": false
+        },
+        {
+          "id": "phone",
+          "labelMarksRequired": false
+        },
+        {
+          "id": "message",
+          "labelMarksRequired": false
+        }
+      ]
+    }
+  },
+  "autoshop-index": {
+    "keyboard_1280": {
+      "focusable": 19,
+      "reached": 15,
+      "noVisibleFocus": [],
+      "obscured": []
+    },
+    "keyboard_360": {
+      "focusable": 19,
+      "reached": 15,
+      "noVisibleFocus": [],
+      "obscured": []
+    },
+    "layout_360": {
+      "smallTargets": [
+        "a \"Головна\" 57×17",
+        "a \"Каталог\" 56×17",
+        "a \"Про нас\" 57×17",
+        "a \"Послуги\" 59×17",
+        "a \"Контакти\" 64×17",
+        "a \"Кошик\" 46×17",
+        "a \"Допомогти з вибором\" 161×23",
+        "a \"Допомогти з вибором\" 161×23",
+        "a \"Допомогти з вибором\" 161×23",
+        "a \"autoshop@example.com\" 187×20"
+      ],
+      "navLinksTotal": 6,
+      "navLinksVisible": 6,
+      "hasMenuButton": false,
+      "horizontalScroll": false,
+      "scrollWidth": 360
+    },
+    "layout_320": {
+      "smallTargets": [
+        "a \"Головна\" 57×17",
+        "a \"Каталог\" 56×17",
+        "a \"Про нас\" 57×17",
+        "a \"Послуги\" 59×17",
+        "a \"Контакти\" 64×17",
+        "a \"Кошик\" 46×17",
+        "a \"Допомогти з вибором\" 161×23",
+        "a \"Допомогти з вибором\" 161×23",
+        "a \"Допомогти з вибором\" 161×23",
+        "a \"autoshop@example.com\" 187×20"
+      ],
+      "navLinksTotal": 6,
+      "navLinksVisible": 6,
+      "hasMenuButton": false,
+      "horizontalScroll": false,
+      "scrollWidth": 320
+    },
+    "textSpacingClipped": [],
+    "semantics": {
+      "headings": [
+        "H1 Підготуй авто до кожної поїздки",
+        "H2 Каталог товарів",
+        "H3 Запчастини",
+        "H3 Аксесуари",
+        "H3 Догляд за авто",
+        "H2 Практичні рішення для щоденних поїздок",
+        "H2 Наші послуги",
+        "H3 Доставка",
+        "H3 Консультація",
+        "H3 Підбір запчастин",
+        "H2 Зв'яжіться з нами",
+        "H2 Кошик"
+      ],
+      "dupButtons": [
+        [
+          "AutoShop",
+          2
+        ],
+        [
+          "Допомогти з вибором",
+          3
+        ],
+        [
+          "autoshop@example.com",
+          2
+        ]
+      ],
+      "skipLink": false,
+      "required": [
+        {
+          "id": "name",
+          "labelMarksRequired": false
+        },
+        {
+          "id": "email",
+          "labelMarksRequired": false
+        },
+        {
+          "id": "message",
+          "labelMarksRequired": false
+        }
+      ]
+    },
+    "darkTheme": []
+  }
+}

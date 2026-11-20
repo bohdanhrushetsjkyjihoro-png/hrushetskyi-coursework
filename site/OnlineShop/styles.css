@@ -740,3 +740,9 @@ textarea:focus-visible {
   color: var(--color-muted);
   font-size: 0.95rem;
 }
+
+/* Більша зона натискання пунктів меню (WCAG 2.5.8) */
+.nav__link {
+  display: inline-block;
+  padding: 0.5rem 0.25rem;
+}

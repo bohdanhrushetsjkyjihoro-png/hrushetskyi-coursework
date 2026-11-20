@@ -347,6 +347,8 @@ textarea {
 
 .site-footer p {
   margin: 0;
+  /* перекриває загальне правило p з design-tokens.css, яке робило текст кольору фону */
+  color: inherit;
 }
 
 .site-footer > a:last-child {

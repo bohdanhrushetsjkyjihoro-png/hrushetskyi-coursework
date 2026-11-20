@@ -1,0 +1,191 @@
+{
+  "shop-index": {
+    "keyboard_1280": {
+      "focusable": 17,
+      "reached": 17,
+      "noVisibleFocus": [],
+      "obscured": []
+    },
+    "keyboard_360": {
+      "focusable": 11,
+      "reached": 11,
+      "noVisibleFocus": [],
+      "obscured": []
+    },
+    "layout_360": {
+      "smallTargets": [
+        "a \"hello@onlineshop.example\" 209×20"
+      ],
+      "navLinksTotal": 10,
+      "navLinksVisible": 0,
+      "hasMenuButton": true,
+      "horizontalScroll": false,
+      "scrollWidth": 360
+    },
+    "layout_320": {
+      "smallTargets": [
+        "a \"hello@onlineshop.example\" 209×20"
+      ],
+      "navLinksTotal": 10,
+      "navLinksVisible": 0,
+      "hasMenuButton": true,
+      "horizontalScroll": false,
+      "scrollWidth": 320
+    },
+    "textSpacingClipped": [],
+    "semantics": {
+      "headings": [
+        "H1 Сучасна техніка для вашого комфорту",
+        "H2 Популярні товари",
+        "H3 Смартфон Galaxy S24",
+        "H3 Дизайн-система Figma",
+        "H3 Бездротові навушники",
+        "H2 Про нас",
+        "H2 Контакти"
+      ],
+      "dupButtons": [],
+      "skipLink": true,
+      "required": []
+    }
+  },
+  "shop-news": {
+    "keyboard_1280": {
+      "focusable": 9,
+      "reached": 9,
+      "noVisibleFocus": [],
+      "obscured": []
+    },
+    "keyboard_360": {
+      "focusable": 9,
+      "reached": 9,
+      "noVisibleFocus": [],
+      "obscured": []
+    },
+    "layout_360": {
+      "smallTargets": [],
+      "navLinksTotal": 2,
+      "navLinksVisible": 2,
+      "hasMenuButton": false,
+      "horizontalScroll": false,
+      "scrollWidth": 360
+    },
+    "layout_320": {
+      "smallTargets": [],
+      "navLinksTotal": 2,
+      "navLinksVisible": 2,
+      "hasMenuButton": false,
+      "horizontalScroll": false,
+      "scrollWidth": 320
+    },
+    "textSpacingClipped": [],
+    "semantics": {
+      "headings": [
+        "H1 Останні новини та відгуки",
+        "H2 Зворотний зв'язок"
+      ],
+      "dupButtons": [],
+      "skipLink": true,
+      "required": [
+        {
+          "id": "name",
+          "labelMarksRequired": true
+        },
+        {
+          "id": "email",
+          "labelMarksRequired": true
+        },
+        {
+          "id": "phone",
+          "labelMarksRequired": true
+        },
+        {
+          "id": "message",
+          "labelMarksRequired": true
+        }
+      ]
+    }
+  },
+  "autoshop-index": {
+    "keyboard_1280": {
+      "focusable": 20,
+      "reached": 18,
+      "noVisibleFocus": [],
+      "obscured": []
+    },
+    "keyboard_360": {
+      "focusable": 20,
+      "reached": 18,
+      "noVisibleFocus": [],
+      "obscured": []
+    },
+    "layout_360": {
+      "smallTargets": [
+        "a \"Допомогти з вибором\n: запчасти\" 161×23",
+        "a \"Допомогти з вибором\n: аксесуар\" 161×23",
+        "a \"Допомогти з вибором\n: догляд з\" 161×23",
+        "a \"autoshop@example.com\" 187×20"
+      ],
+      "navLinksTotal": 6,
+      "navLinksVisible": 6,
+      "hasMenuButton": false,
+      "horizontalScroll": false,
+      "scrollWidth": 360
+    },
+    "layout_320": {
+      "smallTargets": [
+        "a \"Допомогти з вибором\n: запчасти\" 161×23",
+        "a \"Допомогти з вибором\n: аксесуар\" 161×23",
+        "a \"Допомогти з вибором\n: догляд з\" 161×23",
+        "a \"autoshop@example.com\" 187×20"
+      ],
+      "navLinksTotal": 6,
+      "navLinksVisible": 6,
+      "hasMenuButton": false,
+      "horizontalScroll": false,
+      "scrollWidth": 320
+    },
+    "textSpacingClipped": [],
+    "semantics": {
+      "headings": [
+        "H1 Підготуй авто до кожної поїздки",
+        "H2 Каталог товарів",
+        "H3 Запчастини",
+        "H3 Аксесуари",
+        "H3 Догляд за авто",
+        "H2 Практичні рішення для щоденних поїздок",
+        "H2 Наші послуги",
+        "H3 Доставка",
+        "H3 Консультація",
+        "H3 Підбір запчастин",
+        "H2 Зв'яжіться з нами",
+        "H2 Кошик"
+      ],
+      "dupButtons": [
+        [
+          "AutoShop",
+          2
+        ],
+        [
+          "autoshop@example.com",
+          2
+        ]
+      ],
+      "skipLink": true,
+      "required": [
+        {
+          "id": "name",
+          "labelMarksRequired": true
+        },
+        {
+          "id": "email",
+          "labelMarksRequired": true
+        },
+        {
+          "id": "message",
+          "labelMarksRequired": true
+        }
+      ]
+    },
+    "darkTheme": []
+  }
+}

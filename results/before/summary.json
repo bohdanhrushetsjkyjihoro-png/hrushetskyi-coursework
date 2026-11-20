@@ -1,0 +1,299 @@
+{
+  "label": "before",
+  "date": "2026-11-20T04:23:28.860Z",
+  "axe": {
+    "shop-index": {
+      "360": {
+        "violations": [
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "tags": [
+              "wcag2aa",
+              "wcag143"
+            ],
+            "nodes": 3,
+            "help": "Elements must meet minimum color contrast ratio thresholds"
+          }
+        ],
+        "incomplete": []
+      },
+      "768": {
+        "violations": [
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "tags": [
+              "wcag2aa",
+              "wcag143"
+            ],
+            "nodes": 3,
+            "help": "Elements must meet minimum color contrast ratio thresholds"
+          }
+        ],
+        "incomplete": []
+      },
+      "1280": {
+        "violations": [
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "tags": [
+              "wcag2aa",
+              "wcag143"
+            ],
+            "nodes": 3,
+            "help": "Elements must meet minimum color contrast ratio thresholds"
+          }
+        ],
+        "incomplete": []
+      }
+    },
+    "shop-news": {
+      "360": {
+        "violations": [],
+        "incomplete": []
+      },
+      "768": {
+        "violations": [],
+        "incomplete": []
+      },
+      "1280": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    "autoshop-index": {
+      "360": {
+        "violations": [
+          {
+            "id": "label-content-name-mismatch",
+            "impact": "serious",
+            "tags": [
+              "wcag21a",
+              "wcag253"
+            ],
+            "nodes": 1,
+            "help": "Elements must have their visible text as part of their accessible name"
+          }
+        ],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 2
+          }
+        ]
+      },
+      "768": {
+        "violations": [
+          {
+            "id": "label-content-name-mismatch",
+            "impact": "serious",
+            "tags": [
+              "wcag21a",
+              "wcag253"
+            ],
+            "nodes": 1,
+            "help": "Elements must have their visible text as part of their accessible name"
+          }
+        ],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 2
+          }
+        ]
+      },
+      "1280": {
+        "violations": [
+          {
+            "id": "label-content-name-mismatch",
+            "impact": "serious",
+            "tags": [
+              "wcag21a",
+              "wcag253"
+            ],
+            "nodes": 1,
+            "help": "Elements must have their visible text as part of their accessible name"
+          }
+        ],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 2
+          }
+        ]
+      }
+    }
+  },
+  "lighthouse": {
+    "shop-index": {
+      "mobile": [
+        {
+          "accessibility": 95,
+          "performance": 100,
+          "bestPractices": 100,
+          "seo": 100,
+          "failedA11yAudits": [
+            "color-contrast"
+          ]
+        },
+        {
+          "accessibility": 95,
+          "performance": 100,
+          "bestPractices": 100,
+          "seo": 100,
+          "failedA11yAudits": [
+            "color-contrast"
+          ]
+        },
+        {
+          "accessibility": 95,
+          "performance": 100,
+          "bestPractices": 100,
+          "seo": 100,
+          "failedA11yAudits": [
+            "color-contrast"
+          ]
+        }
+      ],
+      "desktop": [
+        {
+          "accessibility": 95,
+          "performance": 94,
+          "bestPractices": 100,
+          "seo": 100,
+          "failedA11yAudits": [
+            "color-contrast"
+          ]
+        },
+        {
+          "accessibility": 95,
+          "performance": 94,
+          "bestPractices": 100,
+          "seo": 100,
+          "failedA11yAudits": [
+            "color-contrast"
+          ]
+        },
+        {
+          "accessibility": 95,
+          "performance": 95,
+          "bestPractices": 100,
+          "seo": 100,
+          "failedA11yAudits": [
+            "color-contrast"
+          ]
+        }
+      ]
+    },
+    "shop-news": {
+      "mobile": [
+        {
+          "accessibility": 100,
+          "performance": 100,
+          "bestPractices": 96,
+          "seo": 100,
+          "failedA11yAudits": []
+        },
+        {
+          "accessibility": 100,
+          "performance": 100,
+          "bestPractices": 96,
+          "seo": 100,
+          "failedA11yAudits": []
+        },
+        {
+          "accessibility": 100,
+          "performance": 100,
+          "bestPractices": 96,
+          "seo": 100,
+          "failedA11yAudits": []
+        }
+      ],
+      "desktop": [
+        {
+          "accessibility": 100,
+          "performance": 97,
+          "bestPractices": 96,
+          "seo": 100,
+          "failedA11yAudits": []
+        },
+        {
+          "accessibility": 100,
+          "performance": 97,
+          "bestPractices": 96,
+          "seo": 100,
+          "failedA11yAudits": []
+        },
+        {
+          "accessibility": 100,
+          "performance": 97,
+          "bestPractices": 96,
+          "seo": 100,
+          "failedA11yAudits": []
+        }
+      ]
+    },
+    "autoshop-index": {
+      "mobile": [
+        {
+          "accessibility": 100,
+          "performance": 100,
+          "bestPractices": 100,
+          "seo": 90,
+          "failedA11yAudits": [
+            "label-content-name-mismatch"
+          ]
+        },
+        {
+          "accessibility": 100,
+          "performance": 100,
+          "bestPractices": 100,
+          "seo": 90,
+          "failedA11yAudits": [
+            "label-content-name-mismatch"
+          ]
+        },
+        {
+          "accessibility": 100,
+          "performance": 100,
+          "bestPractices": 100,
+          "seo": 90,
+          "failedA11yAudits": [
+            "label-content-name-mismatch"
+          ]
+        }
+      ],
+      "desktop": [
+        {
+          "accessibility": 100,
+          "performance": 98,
+          "bestPractices": 100,
+          "seo": 90,
+          "failedA11yAudits": [
+            "label-content-name-mismatch"
+          ]
+        },
+        {
+          "accessibility": 100,
+          "performance": 98,
+          "bestPractices": 100,
+          "seo": 90,
+          "failedA11yAudits": [
+            "label-content-name-mismatch"
+          ]
+        },
+        {
+          "accessibility": 100,
+          "performance": 97,
+          "bestPractices": 100,
+          "seo": 90,
+          "failedA11yAudits": [
+            "label-content-name-mismatch"
+          ]
+        }
+      ]
+    }
+  }
+}

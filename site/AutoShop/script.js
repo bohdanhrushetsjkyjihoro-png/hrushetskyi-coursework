@@ -38,11 +38,8 @@ window.addEventListener("hashchange", updateActiveNavigation);
 // Toggle the page color theme.
 themeToggle.addEventListener("click", () => {
   const isDark = document.body.classList.toggle("dark-theme");
+  // Стан передає aria-pressed, а видимий текст і є доступним ім'ям кнопки
   themeToggle.setAttribute("aria-pressed", String(isDark));
-  themeToggle.setAttribute(
-    "aria-label",
-    isDark ? "Увімкнути світлу тему" : "Увімкнути темну тему",
-  );
 });
 
 emailInput.addEventListener("input", () => {

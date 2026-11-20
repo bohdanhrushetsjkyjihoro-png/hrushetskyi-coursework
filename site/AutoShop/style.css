@@ -420,3 +420,9 @@ textarea {
   margin: 0;
   font-size: 0.95rem;
 }
+
+/* Більша зона натискання пунктів меню (WCAG 2.5.8) */
+.site-header nav a {
+  display: inline-block;
+  padding-block: 0.4rem;
+}

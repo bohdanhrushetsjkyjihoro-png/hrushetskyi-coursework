@@ -95,21 +95,43 @@
           </a>
         </nav>
 
-        <div class="flex items-center space-x-3">
+        <div class="flex items-center gap-2 sm:gap-3">
           <a
             href="#contact"
-            class="rounded-lg bg-gray-100 px-4 py-2 text-sm font-semibold text-gray-700 transition hover:bg-gray-200"
+            class="hidden rounded-lg bg-gray-100 px-4 py-2 text-sm font-semibold text-gray-700 transition hover:bg-gray-200 sm:inline-block"
           >
             Зв'язатися
           </a>
           <a
             href="#products"
-            class="rounded-lg bg-brand-primary px-6 py-3 font-semibold text-white shadow-sm transition duration-200 hover:bg-brand-hover"
+            class="rounded-lg bg-brand-primary px-4 py-2 text-sm font-semibold text-white shadow-sm transition duration-200 hover:bg-brand-hover sm:px-6 sm:py-3 sm:text-base"
           >
             До каталогу
           </a>
+          <button
+            id="menu-toggle"
+            type="button"
+            class="rounded-lg border border-gray-300 px-3 py-2 text-sm font-semibold text-gray-700 md:hidden"
+            aria-expanded="false"
+            aria-controls="mobile-nav"
+          >
+            Меню
+          </button>
         </div>
       </div>
+      <nav
+        id="mobile-nav"
+        class="hidden border-t border-gray-200 bg-white px-4 pb-4 md:hidden"
+        aria-label="Головне меню"
+      >
+        <ul class="flex flex-col">
+          <li><a href="#hero" class="block py-3 font-medium text-brand-primary">Головна</a></li>
+          <li><a href="#products" class="block py-3 font-medium text-gray-700">Каталог</a></li>
+          <li><a href="news.html#news" class="block py-3 font-medium text-gray-700">Новини</a></li>
+          <li><a href="#about" class="block py-3 font-medium text-gray-700">Про нас</a></li>
+          <li><a href="#contact" class="block py-3 font-medium text-gray-700">Контакти</a></li>
+        </ul>
+      </nav>
     </header>
 
     <main id="main-content">

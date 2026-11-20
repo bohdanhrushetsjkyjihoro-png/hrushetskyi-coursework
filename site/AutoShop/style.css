@@ -410,3 +410,13 @@ textarea {
 .skip-link:focus {
   transform: translateY(0);
 }
+
+/* Позначення обов'язкових полів */
+.required-mark {
+  color: var(--link-color);
+}
+
+.form-note {
+  margin: 0;
+  font-size: 0.95rem;
+}

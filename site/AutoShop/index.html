@@ -110,8 +110,9 @@
           <p><a href="mailto:autoshop@example.com">autoshop@example.com</a></p>
         </div>
         <form id="contact-form" novalidate>
+          <p class="form-note">Поля із зірочкою (*) обов'язкові.</p>
           <label class="form-field">
-            Ім’я
+            <span>Ім’я <span class="required-mark" aria-hidden="true">*</span></span>
             <input
               type="text"
               id="name"
@@ -123,7 +124,7 @@
           </label>
 
           <label class="form-field">
-            Email
+            <span>Email <span class="required-mark" aria-hidden="true">*</span></span>
             <input
               type="email"
               id="email"
@@ -137,7 +138,7 @@
           </label>
 
           <label class="form-field">
-            Повідомлення
+            <span>Повідомлення <span class="required-mark" aria-hidden="true">*</span></span>
             <textarea
               id="message"
               name="message"

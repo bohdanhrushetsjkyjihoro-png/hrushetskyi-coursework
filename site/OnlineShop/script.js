@@ -60,6 +60,11 @@ function createProjectCard(project) {
   buyButton.className =
     "rounded-lg bg-brand-primary px-6 py-3 font-semibold text-white transition duration-200 hover:bg-brand-hover";
   buyButton.textContent = "Купити";
+  // Прихований текст робить назву кнопки унікальною для скрінрідера
+  const buyHint = document.createElement("span");
+  buyHint.className = "sr-only";
+  buyHint.textContent = `: ${project.title}`;
+  buyButton.append(buyHint);
 
   footer.append(price, buyButton);
   body.append(title, description, footer);

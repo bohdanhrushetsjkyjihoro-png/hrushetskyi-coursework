@@ -77,8 +77,7 @@ for (const [name, url] of Object.entries(PAGES)) {
         .map((e) => ({ e, r: e.getBoundingClientRect() }))
         .filter(({ r }) => r.width < 24 || r.height < 24)
         .map(({ e, r }) => `${e.tagName.toLowerCase()} "${(e.innerText || "").trim().slice(0, 30)}" ${Math.round(r.width)}×${Math.round(r.height)}`);
-      const nav = document.querySelector("header nav");
-      const navLinks = nav ? [...nav.querySelectorAll("a")] : [];
+      const navLinks = [...document.querySelectorAll("header nav a")];
       const visibleNav = navLinks.filter((a) => a.getClientRects().length && getComputedStyle(a).visibility !== "hidden").length;
       return {
         smallTargets: small,
@@ -105,6 +104,7 @@ for (const [name, url] of Object.entries(PAGES)) {
       document.head.append(s);
       return [...document.querySelectorAll("a,button,h1,h2,h3,p,span,label")]
         .filter((e) => {
+          if (e.closest(".sr-only, .visually-hidden")) return false; // навмисно приховані для скрінрідера
           const st = getComputedStyle(e);
           return (st.overflow === "hidden" || st.textOverflow === "ellipsis") && (e.scrollWidth > e.clientWidth + 1 || e.scrollHeight > e.clientHeight + 1);
         })
@@ -122,6 +122,7 @@ for (const [name, url] of Object.entries(PAGES)) {
       const headings = [...document.querySelectorAll("h1,h2,h3,h4,h5,h6")].map((h) => h.tagName + " " + h.innerText.trim().slice(0, 40));
       const names = {};
       document.querySelectorAll("button,a[href]").forEach((b) => {
+        if (!b.getClientRects().length) return; // приховані (напр. меню іншої ширини) не враховуємо
         const n = (b.getAttribute("aria-label") || b.innerText).trim();
         names[n] = (names[n] || 0) + 1;
       });

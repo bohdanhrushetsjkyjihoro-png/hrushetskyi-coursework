@@ -45,7 +45,7 @@ function createProjectCard(project) {
   title.textContent = project.title;
 
   const description = document.createElement("p");
-  description.className = "mb-4 flex-1 text-sm text-gray-500";
+  description.className = "mb-4 flex-1 text-sm text-gray-600";
   description.textContent = project.text;
 
   const footer = document.createElement("div");

@@ -1,0 +1,16 @@
+{
+  "name": "wcag-audit",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Скрипти аудиту доступності (axe-core + Lighthouse) для курсової роботи",
+  "scripts": {
+    "audit": "node audit.mjs",
+    "manual": "node manual.mjs"
+  },
+  "dependencies": {
+    "axe-core": "^4.14.1",
+    "lighthouse": "^13.6.0",
+    "puppeteer-core": "^25.18.1"
+  }
+}

@@ -44,6 +44,7 @@
         <p class="eyebrow">Ми на зв'язку</p>
         <h2 class="section-title">Зворотний зв'язок</h2>
         <form id="contact-form" class="api-form" novalidate>
+          <p class="form__note">Поля із зірочкою (*) обов'язкові.</p>
           <div
             id="form-status"
             class="form__status"
@@ -53,7 +54,7 @@
           ></div>
 
           <div class="form__group">
-            <label for="name" class="form__label">Ваше ім'я:</label>
+            <label for="name" class="form__label">Ваше ім'я <span class="form__required" aria-hidden="true">*</span></label>
             <input
               type="text"
               id="name"
@@ -66,7 +67,7 @@
           </div>
 
           <div class="form__group">
-            <label for="email" class="form__label">Ваш Email:</label>
+            <label for="email" class="form__label">Ваш email <span class="form__required" aria-hidden="true">*</span></label>
             <input
               type="email"
               id="email"
@@ -79,7 +80,7 @@
           </div>
 
           <div class="form__group">
-            <label for="phone" class="form__label">Телефон</label>
+            <label for="phone" class="form__label">Телефон <span class="form__required" aria-hidden="true">*</span></label>
             <input
               type="tel"
               id="phone"
@@ -95,7 +96,7 @@
           </div>
 
           <div class="form__group">
-            <label for="message" class="form__label">Повідомлення:</label>
+            <label for="message" class="form__label">Повідомлення <span class="form__required" aria-hidden="true">*</span></label>
             <textarea
               id="message"
               name="message"

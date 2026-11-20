@@ -729,3 +729,14 @@ textarea:focus-visible {
 .skip-link:focus {
   transform: translateY(0);
 }
+
+/* Позначення обов'язкових полів форми */
+.form__required {
+  color: var(--color-sale);
+}
+
+.form__note {
+  margin: 0 0 1rem;
+  color: var(--color-muted);
+  font-size: 0.95rem;
+}

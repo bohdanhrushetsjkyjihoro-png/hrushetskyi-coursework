@@ -4,6 +4,8 @@
 Автор: Грушецький Богдан, група 31-КН. Керівник: Кулик Р. М.
 ВСП «Івано-Франківський фаховий коледж ЛНУП», 2026.
 
+Демонстраційний сайт: **https://hrushetskyi-coursework.vercel.app**
+
 ## Що зроблено
 
 Проведено аудит трьох сторінок навчального сайту [OnlineShop](https://github.com/bohdanhrushetsjkyjihoro-png/OnlineShop) на відповідність WCAG 2.2 (рівні A і AA), усунено знайдені порушення і повторено вимірювання.
@@ -57,4 +59,4 @@ axe-core 4.14, Lighthouse 13.6, Puppeteer 25, Node.js 22, Tailwind CSS 3.4, Visu
 
 ## Публікація
 
-Демонстраційний сайт буде опубліковано на Vercel; посилання буде додано сюди.
+Демонстраційний сайт: https://hrushetskyi-coursework.vercel.app (Vercel, папка `site/OnlineShop`).
